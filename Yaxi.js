@@ -1,6 +1,6 @@
 
 const Discord = require("discord.js");
-const jano = new Discord.Client();
+const Yaxi = new Discord.Client();
 //////// playing or dnd  streaming ////////
 Yaxi.on("ready", () => {
   console.log(
