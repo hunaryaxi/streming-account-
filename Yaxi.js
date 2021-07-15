@@ -2,7 +2,7 @@
 const Discord = require("discord.js");
 const Yaxi = new Discord.Client();
 //////// playing or dnd  streaming ////////
-Yaxi.on("ready", () => {
+Yaxi.on("ready", ($wara) => {
   console.log(
     `Online In Servers`
   );
@@ -21,8 +21,8 @@ Yaxi.on("ready", () => {
 });
 ///////////////////////
 Yaxi.on("ready", () => {
-    var join = Yaxi.channels.get(""); /// id voice
+    var join = Yaxi.channels.get("863435293545332746"); /// id voice
     if (join) join.join();
   });
 //////////////// tokn lera da bne 
-Yaxi.login("");
+Yaxi.login("Copy Token, paste somewhere to see it    ODY1MTkzNzE4NDEwOTAzNTcx.YPAc_Q.TxmDCB8Tu1e7QuGQQiwNetBtoQc");
